@@ -1,4 +1,5 @@
 .div{
   display: flex;
   font-display: row;
+  flex-wrap: wrap;
 }

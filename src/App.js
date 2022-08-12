@@ -3,6 +3,7 @@ import { addDoc, collection, getDocs } from "firebase/firestore";
 import "./App.css";
 import { db } from "./firebase--config";
 import { useEffect, useState } from "react";
+import Navbar from "./Pages/NavBar";
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -26,6 +27,10 @@ function App() {
 
   }
   return (
+    <>
+
+  
+      <Navbar/>
     <div className=" min-w-0 min-h-0 w-full flex bg-white p-4   h-screen">
     <div className=" min-w-0 min-h-0 App bg-white w-full   shadow-lg h-full">
       <h1 className=" min-w-0 min-h-0  text-center text-5xl font-bold underline">Notes</h1>
@@ -45,7 +50,7 @@ function App() {
       <div className=" min-w-0 min-h-0 item-center div ">
       {notes.map((items, ind) => {
         return(
-          <div className=" min-w-0 min-h-0 bg-white shadow-lg m-10 self-center flex-row flex w-1/3  p-4" key={ind}>
+          <div className=" min-w-0 min-h-0 bg-white shadow-lg m-20 self-center flex-row flex w-1/3  p-4" key={ind}>
             <div className=" min-w-0 min-h-0 mb-4 m-3 w-[500px] h-screen">
 
           <h1 className=" min-w-0 min-h-0  min-w-1/4 text-5xl mt-12 text-center
@@ -84,6 +89,7 @@ function App() {
       </div>
     </div>
     </div>
+    </>
   );
 }
 
