@@ -1,10 +1,10 @@
 import React from 'react'
-import armaan from '../Images/armaan1.png'
+// import armaan from '../Images/armaan1.png'
 const Aboutus = () => {
   return (
     <div className='resize hover:animate-puls flex  shadow-lg h-screen m-12 pb-24 -mt-10 '>
         <div className=' w-1/2 mt-12 ml-12 mb-12 pl-44 rounded-lg  bg-Natural-700 h-screen  bg-transparent border-none shadow-lg '>
-<img src={armaan} className='  rounded-full h-[600px]' alt="" />
+{/* <img src={armaan} className='  rounded-full h-[600px]' alt="" /> */}
         </div>
         <div className='w-1/2 bg-gray-800 shadow-lg mt-12 mr-12 mb-12  justify-center  h-screen rounded-lg'>
             <h1 className='text-white font-extrabold text-5xl text-center mt-12 '>About US</h1>
