@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/armaankhan8270/Notes/static/css/main.d180dfb0.css",
+    "main.js": "/armaankhan8270/Notes/static/js/main.daf68283.js",
+    "index.html": "/armaankhan8270/Notes/index.html",
+    "main.d180dfb0.css.map": "/armaankhan8270/Notes/static/css/main.d180dfb0.css.map",
+    "main.daf68283.js.map": "/armaankhan8270/Notes/static/js/main.daf68283.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d180dfb0.css",
+    "static/js/main.daf68283.js"
+  ]
+}
