@@ -1,6 +1,6 @@
-![Screenshot (225)](https://user-images.githubusercontent.com/98936216/186478120-fa74368d-b179-4abd-a2ba-bad10c88ccd6.png)
-![Screenshot (226)](https://user-images.githubusercontent.com/98936216/186478149-994a6ff2-b774-4127-b633-88a9de984323.png)
-Exp 10
+
+Exp 10:
+
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -19,7 +19,7 @@ hubs, authorities = nx.hits(G, max_iter=50,normalized=True)
 print("Hub Scores: ",hubs)
 print("Authority Scores: ", authorities)
 
-Exp 8 apriori
+Exp 8apriori:
 import pandas as pd
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori
@@ -49,7 +49,7 @@ res1
 res2= res1[res['confidence'] >=1]
 res2
 
-Exp 7 kmean
+Exp 7 kmean:
 from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
@@ -69,7 +69,7 @@ plt.scatter(X[:, 0], X[:, 1], c=y_pred)
 plt.title("Incorrect Number of Blobs")
 plt.show()
 
-Exp 6 baysian
+Exp 6 baysian:
 import seaborn as sns
 import matplotlib.pyplot as plt 
 from sklearn.model_selection import train_test_split
@@ -98,3 +98,9 @@ print(classification_report(y_test, y_pred))
 
 scatter_matrix(data)
 plt.show()
+
+
+
+
+![Screenshot (225)](https://user-images.githubusercontent.com/98936216/186478120-fa74368d-b179-4abd-a2ba-bad10c88ccd6.png)
+![Screenshot (226)](https://user-images.githubusercontent.com/98936216/186478149-994a6ff2-b774-4127-b633-88a9de984323.png)
